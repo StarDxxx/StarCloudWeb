@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Matlab',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        故障诊断、数据分析、回归分析、深度学习
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'R',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        统计分析、生存分析、网络扩散、回归分析
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Python',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Excel处理、图像处理、自然语言处理、情感分析、机器学习
       </>
     ),
   },

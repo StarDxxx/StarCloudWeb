@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '代码检索',
+  tagline: 'Matlab R Python Stata',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -16,15 +16,15 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'StarDxxx', // Usually your GitHub org/user name.
+  projectName: 'StarCloudWeb', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'STARCLOUD',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -71,6 +71,11 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
+            href: 'https://docusaurus.io/zh-CN/docs/2.0.0-beta.14',
+            label: 'Docusaurus文档',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
@@ -81,28 +86,68 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '项目',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '多方法轴承诊断 [novel]',
+                href: '#',
+              },
+              {
+                label: '零水印 加密解密',
+                href: '#',
+              },
+              {
+                label: 'Transformer & Informer',
+                to: '#',
+              },
+              {
+                label: 'KMeans++',
+                href: '#',
+              },
+              {
+                label: '量化',
+                href: '#',
+              },
+              {
+                label: '社交网络',
+                href: '#',
+              },
+              {
+                label: '大疆无人机航点',
+                href: '#',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Projects',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'PDE 火箭轨道模拟',
+                href: '#',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'PSO ',
+                href: '#',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Unity AR',
+                href: '#',
+              },
+              {
+                label: 'R Machine Learning',
+                href: '#',
+              },
+              {
+                label: 'R Survival Analysis',
+                href: '#',
+              },
+              {
+                label: 'Kaggle Top 5%',
+                href: '#',
+              },
+              {
+                label: 'Apriori Data Mining',
+                href: '#',
               },
             ],
           },
@@ -113,14 +158,18 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
+			        {
+                label: '知乎',
+                href: 'https://www.zhihu.com/people/starCloud',
+              },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'xintutor',
+                href: 'https://stardx.top',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} STARCLOUD, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
