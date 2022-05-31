@@ -5,7 +5,7 @@ sidebar_position: 1
 > 对于python开发，我建议直接安装Anaconda，而不是按照网上的安装python3.7或者2.7什么的
 > 1. python的开发中，我们需要很多的开发环境不断切换，我们最好的是建立好几个单独的环境
 > 2. Anaconda可以快速部署一个开发环境，只需要 **三分钟** 就可以，而且可以根据需求切换
-> 3. 使用Anaonda搭建好当前项目的开发环境之后，我们可以选择 `Pycharm` `Jupyter` `VScode` `spyder`等等作为我们的IDE
+> 3. 使用Anaconda搭建好当前项目的开发环境之后，我们可以选择 `Pycharm` `Jupyter` `VScode` `spyder`等等作为我们的IDE
 
 
 ## 安装Anaconda

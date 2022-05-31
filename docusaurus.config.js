@@ -12,7 +12,7 @@ const TwitterSvg =
 const config = {
   title: '代码检索',
   tagline: 'Matlab R Python Stata',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://stardx.top',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -93,15 +93,18 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://docusaurus.io/zh-CN/docs/2.0.0-beta.14',
-            label: 'Docusaurus文档',
+            href: 'https://xintutor.com',
+            label: 'Xintutor',
             position: 'right',
           },
+          /*
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'ziyuan',
+            label: '资源下载',
           },
+          */
         ],
       },
       footer: {
@@ -186,6 +189,10 @@ const config = {
               },
               {
                 label: 'xintutor',
+                href: 'https://xintutor.com',
+              },
+              {
+                label: '微信公众号',
                 href: 'https://stardx.top',
               },
             ],
