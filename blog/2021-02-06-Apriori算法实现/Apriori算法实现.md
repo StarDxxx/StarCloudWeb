@@ -1,8 +1,10 @@
 ---
 slug: Apriori
 title: Apriori算法实现
+description: Apriori python 代码下载
 authors: [starcloud]
 tags: [python, java, 数据挖掘, Apriori]
+keywords: [python, java, 数据挖掘, Apriori, 代码, 下载]
 ---
 
 
@@ -29,15 +31,15 @@ PPT
 
 1. 算法步骤: 
 
-    ![image.png](./算法步骤.png)
+    ![Apriori算法步骤](./算法步骤.png)
 
 2. 主要说一下网上都没有说的问题:  
-    ![image.png](./按顺序排列.png)  
+    ![Apriori算法排列](./按顺序排列.png)  
     为什么Aprior要假定Lk-1为按顺序排列？
     到底是哪些东西，按照什么顺序排列？
 
     
-    ![image.png](./算法模拟.png)  
+    ![Apriori算法模拟](./算法模拟.png)  
 
     如上图中红色框住的，是一个项集，排序就是排他内部项目的序号，2，5。所谓的排序指的是，一个项集中的项目item，按照自定的顺序排序，当然，排序规则你自己定，但是为了方便我们一般就按本身的sort()函数来排序  
     为什么要 排序 呢？  
@@ -179,23 +181,23 @@ PPT
 
 5. 新增完整的 **gui** 界面，从Apriori到 **规则生成** 
 
-   ![image.png](./Apriori_java_2.PNG)
+   ![Apriori Gui 界面1](./Apriori_java_2.PNG)
 
 
    - :white_check_mark: 两种数据格式——是否带列名 
 
-   ![image.png](./data_Attr.png)  
+   ![Apriori Gui 界面2](./data_Attr.png)  
 
-   ![image.png](./data_noAttr.png)  
+   ![Apriori Gui 界面3](./data_noAttr.png)  
 
    - :white_check_mark: gui界面  
 
-   ![image.png](./Apripri_java_1.PNG)  
+   ![Apriori Gui 界面4](./Apripri_java_1.PNG)  
 
    - :white_check_mark: 频繁项集展示  
 
-   ![image.png](./Kn.PNG)  
+   ![Apriori Gui 频繁项集](./Kn.PNG)  
 
    - :white_check_mark: 规则生成展示  
    
-   ![image.png](./rules.PNG)  
+   ![Apriori Gui  规则生成](./rules.PNG)  

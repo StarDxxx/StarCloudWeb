@@ -1,5 +1,9 @@
 ---
 sidebar_position: 4
+description: R环境安装
+authors: [starcloud]
+tags: [R, 环境配置]
+keywords: [R, R语言, Rstdio, cran, 下载, 2022, 最新]
 ---
 
 
@@ -13,15 +17,15 @@ sidebar_position: 4
 
 1. 选择镜像地址 China
 
-![image](./images/R1.png) 
+![CRAN镜像](./images/R1.png) 
 
 2. 选择对应平台 我们这里选择windows
 
-![image](./images/R2.png) 
+![CRAN下载](./images/R2.png) 
 
 3. 选择base版本
 
-![image](./images/R3.png) 
+![CRAN版本选择](./images/R3.png) 
 
 ## R studio下载与安装
 

@@ -1,5 +1,9 @@
 ---
 sidebar_position: 1
+description: Python环境配置，anaconda下载安装，pycharm破解版下载，激活码
+authors: [starcloud]
+tags: [Python, 环境配置]
+keywords: [Python, pycharm破解, Python3.8, Python3.7, anaconda, 下载, 最新, 激活码, 2022]
 ---
 
 > 对于python开发，我建议直接安装Anaconda，而不是按照网上的安装python3.7或者2.7什么的
@@ -12,16 +16,16 @@ sidebar_position: 1
 
 ### 下载Anaconda 
 我们不在官网下载，速度太慢，前往[清华镜像站](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/?C=M&O=D)下载 
-![image](./images/s1.png)
+![Anaconda 清华镜像站下载](./images/s1.png)
 
 ### 配置Anaconda
-![image](./images/s2.jpg) 
-![image](./images/s3.jpg) 
-![image](./images/s4.jpg) 
-![image](./images/s5.jpg) 
-![image](./images/s6.png) 
-![image](./images/s7.jpg) 
-![image](./images/s8.jpg)
+![Anaconda安装步骤1](./images/s2.jpg) 
+![Anaconda安装步骤2](./images/s3.jpg) 
+![Anaconda安装步骤3](./images/s4.jpg) 
+![Anaconda安装步骤4](./images/s5.jpg) 
+![Anaconda安装步骤5](./images/s6.png) 
+![Anaconda安装步骤6](./images/s7.jpg) 
+![Anaconda安装步骤7](./images/s8.jpg)
 
 ### 配置环境变量
 
@@ -31,15 +35,15 @@ sidebar_position: 1
 > E:\Anaconda\Library\usr\bin  
 > E:\Anaconda\Library\bin（jupyter notebook动态库）  
 
-![image](./images/t1.png)
+![python环境变量设置](./images/t1.png)
 
 ### 校验
 
 打开cmd校验上一步是否成功配置完成
 1. 输入python  
-![image](./images/t2.png)
+![python环境变量设置](./images/t2.png)
 2. 输入conda  
-![image](./images/t3.png)
+![python环境变量设置](./images/t3.png)
 
 ### 为anaconda增加中国镜像（解决下载速度慢的问题）  
 在 `Anaconda prompt` 中操作：  
@@ -47,7 +51,7 @@ sidebar_position: 1
 > conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/  
 > conda config --set show_channel_urls yes  
 
-![image](./images/u1.png)
+![anaconda启动](./images/u1.png)
 
 
 ### 恭喜，至此环境已经全部安装完成
@@ -55,13 +59,13 @@ sidebar_position: 1
 ## 选择合适自己的IDE  
 1. 使用原生的anaconda + jupyter + Spyder
 打开 anaconda，安装jupyter和spyder  
-![image](./images/u2.png)  
+![anaconda jupyter notebook](./images/u2.png)  
 点击launch登录  
-![image](./images/u3.png)  
+![anaconda jupyter notebook](./images/u3.png)  
 新建notebook  
-![image](./images/v1.png)
+![anaconda jupyter notebook](./images/v1.png)
 开始编写代码  
-![image](./images/v2.png)  
+![anaconda jupyter notebook](./images/v2.png)  
 
 
 

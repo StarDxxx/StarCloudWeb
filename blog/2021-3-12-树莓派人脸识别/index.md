@@ -1,8 +1,10 @@
 ---
 slug: RaspberryPi
 title: 人脸识别
+description: 树莓派人脸识别代码下载
 authors: [starcloud]
 tags: [Raspberry Pi, 人脸识别]
+keywords: [Raspberry Pi, 树莓派, 人脸识别, OpenCV, 代码, 下载]
 ---
 
 
@@ -17,19 +19,19 @@ tags: [Raspberry Pi, 人脸识别]
 
 ## 系统架构
 
-![image](./人脸识别.png)
+![树莓派人脸识别架构](./人脸识别.png)
 
 ### 核心部分 core.py
 
-![core](./core.PNG)
+![树莓派人脸识别核心](./core.PNG)
 
 ### 人脸采集
 
-![recore](./DataRecordUI.png)
+![树莓派人脸采集](./DataRecordUI.png)
 
 ### 数据管理
 
-![manage](./DataManageUI.png)
+![树莓派人脸识别 数据管理](./DataManageUI.png)
 
 ## 树莓派
 
@@ -40,9 +42,9 @@ tags: [Raspberry Pi, 人脸识别]
 
 ### 照片
 
-![image](./respberry(1).jpg)
-![image](./respberry(2).jpg)
-![image](./respberry(4).jpg)
-![image](./respberry(5).jpg)
+![树莓派人脸识别拍摄1](./respberry(1).jpg)
+![树莓派人脸识别拍摄2](./respberry(2).jpg)
+![树莓派人脸识别拍摄3](./respberry(4).jpg)
+![树莓派人脸识别拍摄4](./respberry(5).jpg)
 
 

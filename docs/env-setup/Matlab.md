@@ -1,5 +1,9 @@
 ---
 sidebar_position: 3
+description: Matlab破解版下载
+authors: [starcloud]
+tags: [Matlab, 环境配置]
+keywords: [Matlab, 破解版, matlab2021b, matlab2022a, 下载, 2022, 最新]
 ---
 
 ## 下载安装Matlab
