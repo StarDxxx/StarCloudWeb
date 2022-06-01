@@ -52,6 +52,18 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+
+        // SEO and Search
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
+        gtag: {
+          trackingID: 'G-226F0LR9KE',
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
@@ -59,6 +71,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
+      // SEO 
+      metadata: [{name: 'keywords', content: '程序代写, Java环境安装, Python环境安装'}],
+
       docs: {
         sidebar: {
           hideable: true,
